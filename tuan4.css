@@ -20,7 +20,7 @@
     width: 901px;/*911*/
 }
 .right{
-    border-left: 1px solid rgb(168, 168, 168);
+    border-left: 1px solid rgb(234, 234, 234);
     width: 418px;/*505*/
 }
 .left_above {
@@ -290,23 +290,23 @@
 .right_par{
     width: 397px;
     height: 322px;
-    border-bottom: 1px solid rebeccapurple;
+    border-bottom: 1px solid rgb(234, 234, 234);
 }
 .right_par_header{
     display: flex;
     justify-content: space-between;
     width: 472px;
 }
-.right_par_text{
+.right_text{
     display: flex;
     width: 858px;
     
 }
-.text_par{
+.text_par, .text_chat{
     font-size: 24px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 33px;
+    margin-left: 29px;
     margin-top: 37px;
 }
 .number{
@@ -347,8 +347,8 @@
     display: flex;
     justify-content: space-around;
     width: 180px;
-    
 }
+
 .info{
     margin-left: 25px;
     margin-top: 12px;
@@ -358,7 +358,7 @@
     margin-top: 2px;
 }
 .info4{
-    margin-left: 24px;
+    margin-left: 25px;
     margin-top: 2px;
 }
 .avt{
@@ -406,4 +406,96 @@
     color: gray;
     font-size: 25px;
     font-weight: bold;
+}
+.info_cmt1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 29px;
+    margin-top: 37px;
+    margin-bottom: 12px;
+    width: 200px;
+    height: 51px;
+}
+.name1{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 12px;  
+    font-weight: bold;
+}
+.time_1{
+    text-align: center;
+    margin-top: 13px;
+    color: gray;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.text_comment1{
+    width: 334px;
+    height: 66px;
+    background: rgb(246, 246, 246);
+    border-radius: 5px;
+    font-size: 17px;
+    display: flex;
+    margin-left: 83px;
+    margin-top: -21px;
+}
+.text_commentp{
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.comment_2{
+    margin-top: -17px;
+}
+.info_cmt3, .info_cmt4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 29px;
+    margin-top: 37px;
+    margin-bottom: 12px;
+    width: 242px;
+    height: 51px;
+}
+.name3{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -94px;  
+    font-weight: bold;
+}
+.time_3{
+    text-align: center;
+    margin-top: 13px;
+    color: gray;
+    font-size: 13px;
+    margin-left: -105px;
+}
+.text_comment3{
+    width: 100px;
+    height: 50px;
+    background: #fceff2;
+    text-align: center;
+    display: flex;
+    border-radius: 5px;
+    margin-top: -24px;
+    margin-left: 82px;
+}
+.text_comment3p{
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.info_cmt4{
+    width: 157px;
+}
+.name4{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -94px;  
+    font-weight: bold;
+}
+.chat_box{
+    display: flex;
+}
+.input{
+    width: 322px;
+    height: 39px;
+    /* border: none; */
 }
